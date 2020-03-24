@@ -1,22 +1,44 @@
 ---
-title: Hiking The Grand Canyon
-date: '2019-03-10'
-thumb_img_path: images/8.jpg
-content_img_path: images/8.jpg
+title: ng-conf 2016
+date: 2016-05-17T06:00:00.000Z
+thumb_img_path: ''
+content_img_path: ''
 excerpt: >-
-  The Grand Canyon is a steep-sided canyon carved by the Colorado River in
-  Arizona, United States. The Grand Canyon is 277 miles (446 km) long, up to 18
-  miles (29 km) wide and attains a depth of over a mile (6,093 feet or 1,857
-  meters).
+  I was lucky enough to get a ticket to ng-cong in Salt Lake City this year.  It
+  was a great conference, much different from the tech conferences that I'm used
+  to.
+menus:
+  main:
+    title: ng-conf 2016
+    weight: 0
 template: post
 ---
 
-Photo by [Galen Crout.](https://unsplash.com/photos/fItRJ7AHak8)
+# Key Take Aways
+- Angular 2 is going to be fast 
+ - The RC file size has been reduced from 170k to 50k.  
+ - Angular CLI will support pre-compilation of templates which will help with both file size and time to initial load.
+ - Lazy loading on routes will further help with load times
+ - Angular Universal will allow pre-rendering of angular sites on the server (supports Node and asp.net via node)
+ - Angular 2 change detection is fast!
+- Angular 2 is going to be everywhere
+ - Technologies like ionic and native script will allow angular 2 to run on mobile devices
+ - Mobile.angular.io  provides tooling for better progressive web applications
+ - Angular Universal will allow angular to run on the server 
+ - Desktop apps can be created with Electron and Angular 2
+- Angular 2 is going to have a huge ecosystem
+ - Angular Material is going to provide a rich UI component suite
+ - 3rd Party components are coming ([Wijimo](http://wijmo.com/angular2/), [Vaadin](https://vaadin.com/vaadin-documentation-portlet/elements/integrations/angular2.html), [Kendo](http://demos.telerik.com/kendo-ui/integration/angular2), [Ng-bootstrap](https://github.com/ng-bootstrap/core) and others)
+- TypeScript all the things
+    - TypeScript is going to be the best way to write angular code
+    - Consider using TypeScript for any js code
+ 
 
-Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan.
+# Tips
+- Talk with fellow attendees, some of the best information you will get will be from other attendees
+- Pre-download workshop files the wi-fi doesn't handle 100 npm install at once very well
+- Go early or late for food avoid the lines
+- I found it interesting that most presenters were using a Macbook Pro (Apple), angular (Google) and VScode and typescript (Microsoft).  It's nice to see everyone playing nice together.
 
-## Long Distance Hiking
-
-Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan commodo odio cubilia ac eu interdum placerat placerat arcu commodo lobortis adipiscing semper ornare pellentesque.
-
-Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet blandit adipiscing arcu ante.
+# Conclusion
+Overall I thought this was a very well run conference, my only negative feedback would be that a few of the talks seemed to be duplicating content which doesn't really make sense in a single track conference.
