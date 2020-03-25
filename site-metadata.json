@@ -17,6 +17,11 @@
         "text": "Punchcard",
         "url": "https://www.punchcard.io",
         "new_window": true
+      },
+      {
+        "text": "Covid Continuity Information",
+        "url": "https://www.covidcontinuity.com",
+        "new_window": true
       }
     ]
   }
