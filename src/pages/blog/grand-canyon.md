@@ -15,7 +15,7 @@ template: post
 ---
 
 # Key Take Aways
-- Angular 2 is going to be fast 
+- Angular 2 is going to be fast! 
  - The RC file size has been reduced from 170k to 50k.  
  - Angular CLI will support pre-compilation of templates which will help with both file size and time to initial load.
  - Lazy loading on routes will further help with load times

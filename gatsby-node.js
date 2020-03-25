@@ -3,3 +3,6 @@
  *
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
+exports.onCreateNode = ({ node }) => {
+    console.log('creat node: ' + node.id)
+}

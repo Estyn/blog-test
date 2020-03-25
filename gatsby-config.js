@@ -27,7 +27,7 @@ module.exports = {
         {
             resolve: `gatsby-remark-page-creator`,
             options: {
-                
+
             }
         },
         {
@@ -37,6 +37,16 @@ module.exports = {
                 pageContextProperty: `menus`,
                 menus: require('./src/data/menus.json'),
             }
-        }
+        },
+        {
+            resolve: `gatsby-transformer-remark`,
+            options: {
+                plugins: [
+                    {
+                        resolve: `gatsby-remark-prismjs`,
+                    }
+                ],
+            },
+        },
     ]
 };
