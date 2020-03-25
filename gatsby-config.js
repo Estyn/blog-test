@@ -4,6 +4,15 @@ module.exports = {
     plugins: [
         `gatsby-plugin-react-helmet`,
         `gatsby-source-data`,
+        `gatsby-plugin-sharp`,
+        `gatsby-transformer-sharp`,
+        'gatsby-remark-images',
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                path: `${__dirname}/src/pages`,
+            },
+        },
         {
             resolve: `gatsby-source-filesystem`,
             options: {
@@ -21,7 +30,12 @@ module.exports = {
         {
             resolve: `gatsby-transformer-remark`,
             options: {
-                plugins: [`gatsby-remark-component`]
+                plugins: [`gatsby-remark-component`, {
+                    resolve: `gatsby-remark-images`,
+                    options: {
+                        maxWidth: 800,
+                    },
+                },]
             }
         },
         {
@@ -44,7 +58,45 @@ module.exports = {
                 plugins: [
                     {
                         resolve: `gatsby-remark-prismjs`,
-                    }
+                        options: {
+
+                            classPrefix: "language-",
+
+                            inlineCodeMarker: null,
+
+                            aliases: {},
+
+                            showLineNumbers: false,
+
+                            noInlineHighlight: false,
+
+                            languageExtensions: [
+                                {
+                                    language: "superscript",
+                                    extend: "javascript",
+                                    definition: {
+                                        superscript_types: /(SuperType)/,
+                                    },
+                                    insertBefore: {
+                                        function: {
+                                            superscript_keywords: /(superif|superelse)/,
+                                        },
+                                    },
+                                },
+                            ],
+                            // Customize the prompt used in shell output
+                            // Values below are default
+                            prompt: {
+                                user: "root",
+                                host: "localhost",
+                                global: false,
+                            },
+                            // By default the HTML entities <>&'" are escaped.
+                            // Add additional HTML escapes by providing a mapping
+                            // of HTML entities and their escape value IE: { '}': '&#123;' }
+                            escapeEntities: {},
+                        },
+                    },
                 ],
             },
         },

@@ -1,21 +1,19 @@
 ---
-title: ng-conf 2016
-date: 2016-05-17T06:00:00.000Z
-thumb_img_path: ''
-content_img_path: ''
-excerpt: >-
-  I was lucky enough to get a ticket to ng-cong in Salt Lake City this year.  It
-  was a great conference, much different from the tech conferences that I'm used
-  to.
-menus:
-  main:
-    title: ng-conf 2016
-    weight: 0
+date : "2016-05-17"
+title : "ng-conf 2016"
+comments: true
+categories: [Angular]
+tags: ["angular","conference", "2016"]
+keywords: "angular 2 " 
 template: post
 ---
 
+I was lucky enough to get a ticket to ng-cong in Salt Lake City this year.  It was a great conference, much different from the tech conferences that I'm used to.
+
+<!--more-->
+
 # Key Take Aways
-- Angular 2 is going to be fast! 
+- Angular 2 is going to be fast 
  - The RC file size has been reduced from 170k to 50k.  
  - Angular CLI will support pre-compilation of templates which will help with both file size and time to initial load.
  - Lazy loading on routes will further help with load times
