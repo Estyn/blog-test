@@ -466,7 +466,7 @@ collections:
     folder: src/pages/
     create: true
     extension: md
-    slug: '{{slug}}'
+    slug: "{{slug}}"
     fields:
       - widget: string
         name: title
@@ -528,10 +528,10 @@ collections:
       value: page
   - name: post
     label: Posts
-    folder: src/pages/posts
+    folder: src/pages/blog
     create: true
     extension: md
-    slug: '{{slug}}'
+    slug: "{{slug}}"
     fields:
       - widget: string
         name: title
@@ -566,7 +566,7 @@ collections:
         name: canonical_url
         label: Canonical URL
         required: false
-        hint: 'The canonical url of the post, if post originates elsewhere.'
+        hint: "The canonical url of the post, if post originates elsewhere."
       - widget: object
         name: menus
         label: Post Menus
